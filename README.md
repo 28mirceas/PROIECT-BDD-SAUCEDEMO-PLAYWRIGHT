@@ -1,4 +1,5 @@
 # SauceDemo UI Automation with Playwright and Behave
+![GitHub Actions](https://github.com/28mirceas/PROIECT-BDD-SAUCEDEMO-PLAYWRIGHT/actions/workflows/tests.yml/badge.svg)
 
 ## Project Overview
 
