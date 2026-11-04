@@ -7,7 +7,7 @@ class Browser():
         # 1. Pornim manual motorul Playwright sincron
         self.playwright = sync_playwright().start()
         # 2. Configurația pentru browser (argumentele --no-sandbox și --disable-dev-shm-usage sunt incluse implicit)
-        self.browser = self.playwright.chromium.launch(headless=False)
+        self.browser = self.playwright.chromium.launch(headless=True)
 
         # 3. Creăm contextul browserului (echivalentul setărilor de sesiune)
         # viewport=None + args: maximizează fereastra la pornire
